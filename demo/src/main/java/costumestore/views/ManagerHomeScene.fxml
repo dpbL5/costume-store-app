@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="costumestore.views.ManagerHomeScene">
+   <children>
+      <Button fx:id="btnViewRevenueStat" layoutX="195.0" layoutY="183.0" mnemonicParsing="false" onAction="#btnViewRevenueStatOnClick" text="Xem thống kê doanh thu">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblEmp" layoutX="14.0" layoutY="21.0" prefHeight="54.0" prefWidth="564.0" text="Label">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
